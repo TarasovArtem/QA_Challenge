@@ -1,0 +1,8 @@
+{
+    "baseUrl": "https://www.haba.de",
+    "ignoreTestFiles": "**/examples/*",
+    "viewportWidth": 1920,
+    "viewportHeight": 1080,
+    "pluginsFile": false
+  }
+  
