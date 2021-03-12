@@ -2,8 +2,6 @@
 
 import {Navigation, General, MainPage, ForBabysItem, WoodenToys, Cart} from '../../pageObjects/index';
 
-
-
 describe('Customer can add any available item to cart', () => {
     
     let forBabys = new ForBabysItem();
@@ -11,13 +9,11 @@ describe('Customer can add any available item to cart', () => {
     let mainPage = new MainPage();
     let cart = new Cart();
     let woodenToys = new WoodenToys();
-    
-   
+       
     beforeEach(() => {
         mainPage = Navigation.mainPage();
         general.getAllCookies().click();
     })
-
 
     it('Add any available items', () => {
         forBabys = Navigation.forBabysItem();
@@ -28,7 +24,6 @@ describe('Customer can add any available item to cart', () => {
         woodenToys = Navigation.woodenToys();
         woodenToys.getPeggingGameFish().click();
         general.getAddToCartButton().click();
-        cart.getAdditionalInfoCart().should('have.text', '2');       
-        
+        cart.getAdditionalInfoCart().should('have.text', '2');           
     })
 })

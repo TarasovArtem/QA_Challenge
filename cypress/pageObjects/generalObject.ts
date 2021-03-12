@@ -9,9 +9,5 @@ class General {
     getAddToCartButton() {
         return cy.get('#addToCartButton');
     }
-
-
-
-
 }
 export default General

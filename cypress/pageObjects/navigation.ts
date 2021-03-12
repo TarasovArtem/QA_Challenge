@@ -2,7 +2,7 @@
 
 import ForBabysItem from './forBabys';
 import MainPage from './mainPage';
-import WoodenToys from './woodenToys'
+import WoodenToys from './woodenToys';
 
 class Navigation {
 
@@ -20,6 +20,5 @@ class Navigation {
         cy.visit('/en_DE/c/wooden-toys--o05xg1');
         return new WoodenToys;
     }
-
 }
 export default Navigation

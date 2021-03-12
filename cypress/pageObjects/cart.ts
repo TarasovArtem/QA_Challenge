@@ -19,6 +19,4 @@ class Cart {
         return cy.get('#removeEntry_0');
     }
 }
-
-
 export default Cart

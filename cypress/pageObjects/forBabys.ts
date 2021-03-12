@@ -9,18 +9,6 @@ class ForBabysItem {
 
     getClutchingToyFreddytheFrog() {
         return cy.get('[data-article-number="306005"]');
-    }
-
-
-
-
-
-
-
-
-
-
-
-    
+    }    
 }
 export default ForBabysItem
