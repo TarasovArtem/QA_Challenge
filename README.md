@@ -1,5 +1,3 @@
-h1 OA Challenge 
-
 ### Commands for running tests
 
 #### Installation
