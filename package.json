@@ -4,7 +4,10 @@
   "description": "QA Challenge",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "cypress:open": "cypress open",
+    "cypress:run:chrome": "cypress run --headless --browser chrome",
+    "cypress:run:firefox": "cypress run --headless --browser firefox",
+    "cypress:run:edge": "cypress run --headless --browser edge"
   },
   "author": "Artem Tarasov",
   "license": "ISC",

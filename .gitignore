@@ -3,7 +3,5 @@ package-lock.json
 coverage
 npm-debug.log*
 cypress/videos
-cypress/screenshots
-cypress/reports
 debug.log
 
