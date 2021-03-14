@@ -1,5 +1,4 @@
 ## Scenario 1: Test strategy - bullet point approach
-======================
 
 #### 1. Types of testing which we use for the project
     * Performance testing
@@ -25,16 +24,18 @@
     * Test cases
     * Check lists
     * Test scenarios
+    
 
 #### 5. Testing tools
-    * Frameworks (Cypress, JMeter)
-    * Bug Trackers  (Jira)
+    * Frameworks and tools (Cypress, JMeter, Postman, Applitools Eyes)
+    * Bug Trackers  (Jira, TestRail)
     * Git tools (SourceTree)
 
 
 
 
+
 ## Scenario 2: E2E UI Automation
-======================
+
 
 
