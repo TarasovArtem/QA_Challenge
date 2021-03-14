@@ -16,7 +16,7 @@ or
 - `npm run cypress:open`
 
 
-#### Runs all tests in specific browser
+#### Runs all tests in specific browser (***Browsers should be installed on your local machine***)
 
 - `npm run cypress:run:chrome`
 
