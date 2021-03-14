@@ -13,7 +13,9 @@
 #### Opening Cypress GUI
 
     npx cypress open 
-    or 
+
+or 
+
     npm run cypress:open
 
 
