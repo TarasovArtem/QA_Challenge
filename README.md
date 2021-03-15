@@ -40,5 +40,6 @@ or
 
 ### ABOUT.md
 
-    Scenario 1: Test strategy 
+    Scenario 1: Test strategy
+     
     Scenario 2: E2E UI Automation
