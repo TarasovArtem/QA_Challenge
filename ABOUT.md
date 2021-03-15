@@ -13,7 +13,7 @@
     * Security testing (who guarantees the security of the data, and how the system is resistant to hacking)
     * Failure and recovery (how the system will behave in an emergency)
 
-#### 2.Testing priorities
+#### 2. Testing priorities
     * development of autotests (E2E)
     * checking the most critical scenarios (smoke testing)
 
@@ -33,9 +33,25 @@
 
 
 
-
-
 ## Scenario 2: E2E UI Automation
+
+#### Tests were automated:
+    ● Customer can add any available item to cart 
+    ● Customer can update quantity of item in cart 
+    ● Customer can remove item from cart 
+
+#### The execution priority should be tests:
+    ● Customer can start checkout process
+    ● Customer can checkout via PayPal
+    For these tests, should be the Customer's data / other credentials
+
+#### Cannot be executed
+    ● Customer can jump to item details
+    It is not clear what is meant: item details
+
+
+
+
 
 
 
