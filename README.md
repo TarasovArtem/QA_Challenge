@@ -1,7 +1,6 @@
 ### Commands for running tests
 
 #### Installation
-
  
     git clone https://github.com/TarasovArtem/QA_Challenge.git
 
@@ -39,3 +38,7 @@ or
 
     ./cypress/integration/E2E_Tests/updateQuantityOfItemInCart.spec.ts
 
+### ABOUT.md
+
+    Scenario 1: Test strategy 
+    Scenario 2: E2E UI Automation
